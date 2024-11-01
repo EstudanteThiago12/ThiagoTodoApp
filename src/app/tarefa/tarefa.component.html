@@ -1,5 +1,16 @@
-<div class="tarefa">
-    <span>{{ tarefa }}</span>
-    <button (click)="onDelete()">Excluir</button>
+<div class="tarefa" [ngClass]="{'concluida': tarefa.concluida}">
+    <h4>{{ tarefa.nome }}</h4>
+    <p>{{ tarefa.descricao }}</p>
+    <p>Data: {{ tarefa.data }}</p>
+    <label>
+      <input id = "check" type="checkbox" [checked]="tarefa.concluida" (change)="onConcluir()" />
+      Concluir Tarefa
+    </label>
+    <button id="Butao" (click)="onDelete()">Excluir</button>
   </div>
+  
+  
+  
+  
+  
   

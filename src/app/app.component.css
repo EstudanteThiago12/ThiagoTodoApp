@@ -1,0 +1,9 @@
+h1{
+        font-family: 'Roboto', sans-serif; /* Define uma fonte elegante */
+        font-size: 36px; /* Tamanho do título */
+        color: #2c3e50; /* Cor do texto do título */
+        margin-bottom: 20px; /* Espaçamento abaixo do título */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+        display: flex;
+        justify-content: center;
+ }
