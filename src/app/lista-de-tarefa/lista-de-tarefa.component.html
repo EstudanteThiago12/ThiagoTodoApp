@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Lista de Tarefas</h2>
+  <input #taskInput placeholder="Nova Tarefa" />
+  <button (click)="adicionarTarefa(taskInput.value); taskInput.value=''">Adicionar</button>
+
+  <ul>
+    <li *ngFor="let tarefa of tarefas; index as i">
+      <app-tarefa [tarefa]="tarefa" (delete)="removerTarefa(i)"></app-tarefa>
+    </li>
+  </ul>
+</div>
+
+
