@@ -1,73 +1,73 @@
 .container {
-    max-width: 600px; /* Largura máxima do container */
-    margin: 0 auto; /* Centraliza o container */
-    padding: 20px; /* Adiciona espaçamento interno */
-    background-color: #f9f9f9; /* Cor de fundo */
-    border-radius: 10px; /* Cantos arredondados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para efeito de profundidade */
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f9f9f9;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   }
   
   h2 {
-    text-align: center; /* Centraliza o título */
-    color: #333; /* Cor do texto do título */
+    text-align: center; 
+    color: #333; 
   }
   
   input {
-    width: calc(100% - 22px); /* Largura do input, descontando o padding */
-    padding: 10px; /* Espaçamento interno do input */
-    border: 1px solid #ccc; /* Borda do input */
-    border-radius: 5px; /* Cantos arredondados do input */
-    margin-bottom: 10px; /* Espaçamento abaixo do input */
-    font-size: 16px; /* Tamanho da fonte */
+    width: calc(100% - 22px); 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    font-size: 16px; 
   }
   
   button {
-    background-color: #5cb85c; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Cantos arredondados do botão */
-    padding: 10px 15px; /* Espaçamento interno do botão */
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    width: 100%; /* Largura total do botão */
-    font-size: 16px; /* Tamanho da fonte */
+    background-color: #5cb85c; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 15px;
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 16px; 
   }
   
   button:hover {
-    background-color: #4cae4c; /* Cor de fundo do botão ao passar o mouse */
+    background-color: #4cae4c; 
   }
   
   ul {
-    list-style-type: none; /* Remove marcadores da lista */
-    padding: 0; /* Remove padding */
+    list-style-type: none; 
+    padding: 0; 
   }
   
   li {
-    margin: 10px 0; /* Espaçamento entre as tarefas */
+    margin: 10px 0; 
   }
   
   .tarefa {
-    background-color: #fff; /* Cor de fundo das tarefas */
-    padding: 15px; /* Espaçamento interno das tarefas */
-    border-radius: 5px; /* Cantos arredondados das tarefas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para as tarefas */
-    display: flex; /* Usando flexbox para alinhamento */
-    justify-content: space-between; /* Espaço entre os elementos */
-    align-items: center; /* Alinha os itens ao centro verticalmente */
+    background-color: #fff; 
+    padding: 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
   }
   
   .tarefa.concluida {
-    background-color: #d4edda; /* Cor de fundo para tarefas concluídas */
-    text-decoration: line-through; /* Texto riscado para tarefas concluídas */
-    opacity: 0.7; /* Um pouco de transparência para tarefas concluídas */
+    background-color: #d4edda; 
+    text-decoration: line-through; 
+    opacity: 0.7; 
   }
   
   @media (max-width: 600px) {
     .container {
-      padding: 10px; /* Reduz o padding em telas menores */
+      padding: 10px; 
     }
   
     input, button {
-      font-size: 14px; /* Tamanho da fonte menor em telas menores */
+      font-size: 14px; 
     }
   }
   

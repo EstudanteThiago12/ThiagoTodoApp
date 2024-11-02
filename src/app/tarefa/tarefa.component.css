@@ -1,38 +1,38 @@
 .tarefa {
-    display: flex; /* Usando flexbox para alinhamento */
-    align-items: center; /* Alinha os itens ao centro verticalmente */
-    justify-content: space-between; /* Espaço entre os elementos */
-    padding: 15px; /* Espaçamento interno */
-    margin: 10px 0; /* Espaçamento entre as tarefas */
-    border-radius: 5px; /* Cantos arredondados */
-    background-color: #fff; /* Cor de fundo */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para a tarefa */
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   }
   
   .tarefa h4 {
-    margin: 0; /* Remove margem do título */
-    color: #333; /* Cor do texto do título */
+    margin: 0;
+    color: #333; 
   }
   
   .tarefa p {
-    margin: 5px 0; /* Margem entre parágrafos */
-    color: #666; /* Cor do texto da descrição */
+    margin: 5px 0; 
+    color: #666; 
   }
   
   label {
-    margin-left: 10px; /* Espaçamento à esquerda do label da checkbox */
+    margin-left: 10px; 
   }
   
   button {
-    background-color: #dc3545; /* Cor de fundo do botão de excluir */
-    color: white; /* Cor do texto do botão de excluir */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Cantos arredondados do botão de excluir */
-    padding: 8px 10px; /* Espaçamento interno do botão de excluir */
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    background-color: #dc3545; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 8px 10px; 
+    cursor: pointer; 
   }
   
   button:hover {
-    background-color: #c82333; /* Cor de fundo do botão de excluir ao passar o mouse */
+    background-color: #c82333; 
   }
   
